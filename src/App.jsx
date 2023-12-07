@@ -38,7 +38,7 @@ function App() {
         return (
             <>
             <div key={format(day, 'yyyyMMdd')} className={dayClasses}>
-              {format(day, 'd')}
+              {format(day,'dd')}
             </div> 
             </>
         )

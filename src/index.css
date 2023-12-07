@@ -80,10 +80,10 @@ button:focus-visible {
 
 .weekend {
   color: black;
-  background-color: #f2f2f2; 
+  background-color: #a9a6a6; 
 }
 
 .holiday {
-  background-color: #ff9999;
+  background-color: #ff0000;
   color: black;
 }
