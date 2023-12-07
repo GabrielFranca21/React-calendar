@@ -66,3 +66,24 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+
+.day {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.weekend {
+  color: black;
+  background-color: #f2f2f2; 
+}
+
+.holiday {
+  background-color: #ff9999;
+  color: black;
+}
