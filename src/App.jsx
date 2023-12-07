@@ -36,7 +36,11 @@ function App() {
         let dayClasses = `day ${isWeekend ? 'weekend' : ''} ${isHoliday ? 'holiday' : ''}`
 
         return (
-          
+            <>
+            <div key={format(day, 'yyyyMMdd')} className={dayClasses}>
+              {format(day, 'd')}
+            </div> 
+            </>
         )
       })}
     </div>
